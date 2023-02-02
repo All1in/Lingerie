@@ -1,0 +1,15 @@
+@import '../../pages/PageHome/PerfectSet/breakpoints.scss';
+@import '../../pages/PageHome/PerfectSet/variables.scss';
+
+.content {
+  &-list {
+    display: grid;
+    gap: 48px;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 320px));
+
+    @include for-large-up {
+      gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+  }
+}

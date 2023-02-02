@@ -1,0 +1,18 @@
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  @media (max-width: 660px) {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+.block {
+  height: 80px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  &_input {
+    height: 73px;
+  }
+}

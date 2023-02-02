@@ -1,0 +1,20 @@
+@import '.././Colors/breakpoints.scss';
+@import '../../pages/PageHome/PerfectSet/variables.scss';
+
+.active {
+  @include for-medium-up {
+    cursor: pointer;
+  }
+}
+.mt-4 {
+  @include for-medium-up {
+    margin-top: 0 !important;
+  }
+}
+
+.filtering {
+  display: none;
+  @include for-medium-up {
+    display: block;
+  }
+}

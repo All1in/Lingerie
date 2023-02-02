@@ -1,0 +1,340 @@
+[
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20D4/_DSC3222.jpg",
+      "https://kept.com.ua/image/20D5/_DSC3243.jpg",
+      "https://kept.com.ua/image/20D6/_DSC3261.jpg",
+      "https://kept.com.ua/image/20D7/_DSC3294.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb07",
+    "color": "pink",
+    "categories": "Hiding Beauty",
+    "name": "Penelope Pink",
+    "itemNo": "145876",
+    "currentPrice": 85,
+    "size": "S",
+    "date": "2023-02-02T12:19:55.063Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20Dh/dotuk-12.jpg",
+      "https://kept.com.ua/image/20Dj/dotuk-14.jpg",
+      "https://kept.com.ua/image/20Di/dotuk-13.jpg",
+      "https://kept.com.ua/image/20Dg/dotuk-11.jpg",
+      "https://kept.com.ua/image/20Dg/dotuk-11.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb08",
+    "color": "black",
+    "name": "Sporty Black",
+    "categories": "Sporty basics",
+    "itemNo": "874591",
+    "currentPrice": 65,
+    "size": "M",
+    "date": "2023-02-02T12:19:55.063Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20Ee/dotuk-26.jpg",
+      "https://kept.com.ua/image/20Ed/dotuk-25.jpg",
+      "https://kept.com.ua/image/20Ec/dotuk-24.jpg",
+      "https://kept.com.ua/image/20Eb/dotuk-22.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb09",
+    "color": "nude",
+    "categories": "Lace of Temptation",
+    "itemNo": "098123",
+    "name": "Sicilia Nude",
+    "currentPrice": 85,
+    "size": "L",
+    "date": "2023-02-02T12:19:55.063Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20Dc/dotuk-4.jpg",
+      "https://kept.com.ua/image/20Db/dotuk-2.jpg",
+      "https://kept.com.ua/image/20De/dotuk-6.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb0a",
+    "color": "violet",
+    "categories": "Hypnotism",
+    "itemNo": "731567",
+    "name": "Violet",
+    "currentPrice": 85,
+    "size": "XL",
+    "date": "2023-02-02T12:19:55.064Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20Ef/dotuk-30.jpg",
+      "https://kept.com.ua/image/20Ei/dotuk-35.jpg",
+      "https://kept.com.ua/image/20Eh/dotuk-33.jpg",
+      "https://kept.com.ua/image/20Eg/dotuk-31.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb0b",
+    "color": "white",
+    "currentPrice": 85,
+    "itemNo": "431895",
+    "name": "Fatality White",
+    "categories": "Sporty basics",
+    "size": "S",
+    "date": "2023-02-02T12:19:55.064Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20En/dotuk-55.jpg",
+      "https://kept.com.ua/image/20Em/dotuk-54.jpg",
+      "https://kept.com.ua/image/20El/dotuk-53.jpg",
+      "https://kept.com.ua/image/20Ek/dotuk-51.jpg",
+      "https://kept.com.ua/image/20Ej/dotuk-47.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb0c",
+    "color": "black",
+    "categories": "Lace of Temptation",
+    "currentPrice": 85,
+    "itemNo": "510923",
+    "name": "Sicilia Black",
+    "size": "M",
+    "date": "2023-02-02T12:19:55.064Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20Ex/dotuk-71.jpg",
+      "https://kept.com.ua/image/20Ey/dotuk-72.jpg",
+      "https://kept.com.ua/image/20Ez/dotuk-73.jpeg",
+      "https://kept.com.ua/image/20Ew/dotuk-70.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb0d",
+    "color": "black",
+    "categories": "Hiding Beauty",
+    "currentPrice": 95,
+    "itemNo": "123456",
+    "name": "Hanna",
+    "size": "L",
+    "date": "2023-02-02T12:19:55.064Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/2qFC/na_dotuk-28.jpg",
+      "https://kept.com.ua/image/2qFB/na_dotuk-16.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb0e",
+    "color": "red",
+    "currentPrice": 85,
+    "itemNo": "673134",
+    "name": "Reyne",
+    "categories": "Hypnotism",
+    "size": "XL",
+    "date": "2023-02-02T12:19:55.065Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20Er/dotuk-59.jpg",
+      "https://kept.com.ua/image/20Eq/dotuk-58.jpg",
+      "https://kept.com.ua/image/20Ep/dotuk-57.jpeg",
+      "https://kept.com.ua/image/20Eo/dotuk-56.jpeg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb0f",
+    "color": "black",
+    "categories": "The Magic of Transparency",
+    "currentPrice": 85,
+    "itemNo": "121314",
+    "name": "Unnamed black",
+    "size": "S",
+    "date": "2023-02-02T12:19:55.065Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/1aB8/_DSC3109.jpg",
+      "https://kept.com.ua/image/1AC4/_DSC3134.jpg",
+      "https://kept.com.ua/image/1aB9/_DSC3126.jpg",
+      "https://kept.com.ua/image/1aB7/_DSC3092.jpg",
+      "https://kept.com.ua/image/1aB6/_DSC3085.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb10",
+    "color": "red",
+    "categories": "Hiding Beauty",
+    "currentPrice": 85,
+    "itemNo": "090102",
+    "name": "Fantasy",
+    "size": "M",
+    "date": "2023-02-02T12:19:55.065Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/2qFD/na_dotuk-20.jpg",
+      "https://kept.com.ua/image/2qFE/na_dotuk-22.jpg",
+      "https://kept.com.ua/image/2qFF/na_dotuk-24.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb11",
+    "color": "red",
+    "categories": "Hypnotism",
+    "currentPrice": 95,
+    "itemNo": "989134",
+    "name": "Passion",
+    "size": "L",
+    "date": "2023-02-02T12:19:55.066Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/2qFx/dotuk-76.jpg",
+      "https://kept.com.ua/image/2qFA/dotuk-88.jpg",
+      "https://kept.com.ua/image/2qFz/dotuk-87.jpg",
+      "https://kept.com.ua/image/2qFy/dotuk-83.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb12",
+    "color": "black",
+    "categories": "Hypnotism",
+    "currentPrice": 95,
+    "itemNo": "676891",
+    "name": "Emmy",
+    "size": "S",
+    "date": "2023-02-02T12:19:55.066Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/1AC5/_DSC3144.jpg",
+      "https://kept.com.ua/image/1AC9/_DSC3200.jpeg",
+      "https://kept.com.ua/image/1AC7/_DSC3190.jpeg",
+      "https://kept.com.ua/image/1AC6/_DSC3160.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb13",
+    "color": "black",
+    "categories": "The Magic of Transparency",
+    "currentPrice": 85,
+    "itemNo": "054672",
+    "name": "Transparency",
+    "size": "M",
+    "date": "2023-02-02T12:19:55.066Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20Es/dotuk-63.jpg",
+      "https://kept.com.ua/image/20Ev/dotuk-66.jpg",
+      "https://kept.com.ua/image/20Eu/dotuk-65.jpg",
+      "https://kept.com.ua/image/20Et/dotuk-64.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb14",
+    "color": "nude",
+    "categories": "The Magic of Transparency",
+    "currentPrice": 85,
+    "itemNo": "178230",
+    "name": "Unnamed nude",
+    "size": "L",
+    "date": "2023-02-02T12:19:55.066Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20D8/ard9661.jpeg",
+      "https://kept.com.ua/image/20D9/ard9662.jpeg",
+      "https://kept.com.ua/image/20Da/dotuk-69.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb15",
+    "color": "black",
+    "categories": "Hypnotism",
+    "currentPrice": 95,
+    "itemNo": "101918",
+    "name": "Goldy",
+    "size": "XL",
+    "date": "2023-02-02T12:19:55.067Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/2qFH/na_dotuk-32.jpg",
+      "https://kept.com.ua/image/2qFI/na_dotuk-33.jpg",
+      "https://kept.com.ua/image/2qFG/na_dotuk-29.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb16",
+    "color": "white",
+    "categories": "Lace of Temptation",
+    "currentPrice": 85,
+    "itemNo": "534127",
+    "name": "Sicilia White",
+    "size": "S",
+    "date": "2023-02-02T12:19:55.067Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/2qFw/dotuk-80.jpg",
+      "https://kept.com.ua/image/2qFv/dotuk-79.jpg",
+      "https://kept.com.ua/image/2qFu/ard9684_(1).jpeg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb17",
+    "color": "white",
+    "categories": "Hiding Beauty",
+    "currentPrice": 85,
+    "itemNo": "365960",
+    "name": "Silver",
+    "size": "M",
+    "date": "2023-02-02T12:19:55.069Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/2qFJ/na_dotuk-48.jpg",
+      "https://kept.com.ua/image/2qFL/na_dotuk-51.jpg",
+      "https://kept.com.ua/image/2qFK/na_dotuk-50.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb18",
+    "color": "red",
+    "categories": "Hypnotism",
+    "currentPrice": 75,
+    "itemNo": "201673",
+    "name": "Ripe Cherry",
+    "size": "L",
+    "date": "2023-02-02T12:19:55.070Z"
+  },
+  {
+    "enabled": true,
+    "imageUrls": [
+      "https://kept.com.ua/image/20Dm/dotuk-18.jpg",
+      "https://kept.com.ua/image/20Dl/dotuk-17.jpg",
+      "https://kept.com.ua/image/20Dk/dotuk-15.jpg",
+      "https://kept.com.ua/image/20Dn/dotuk-19.jpg",
+      "https://kept.com.ua/image/20Do/dotuk-21.jpg"
+    ],
+    "quantity": 100,
+    "_id": "63dba9b0d212edf0fa24bb19",
+    "color": "black",
+    "categories": "Sporty basics",
+    "currentPrice": 65,
+    "itemNo": "087123",
+    "name": "Souple",
+    "size": "XL",
+    "date": "2023-02-02T12:19:55.070Z"
+  }
+]

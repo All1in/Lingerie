@@ -1,0 +1,17 @@
+@mixin for-small-up {
+  @media screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+@mixin for-medium-up {
+  @media screen and (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin for-large-up {
+  @media screen and (max-width: $lg) {
+    @content;
+  }
+}

@@ -1,0 +1,99 @@
+.banner {
+    position: relative;
+    @media (max-width: 991px) {
+        margin-top: 15%;
+    }
+    @media (max-width: 540px) {
+        margin-top: 20%;
+    }
+    @media (max-width: 390px) {
+        margin-top: 25%;
+    }
+}
+.block_f {
+    position: absolute;
+    color: #2D4153;
+    top: 40%;
+    left: 13%;
+    span {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 76px;
+        @media (max-width: 991px) {
+            font-size: 42px;
+        }            
+    }
+    @media (max-width: 1900px) {
+        left: 6%;
+    }
+    @media (max-width: 991px) {
+        left: 50%;
+        transform: translate(-50%, -132%);
+        top: 0;
+    }
+}
+.block_s {
+    position: absolute;
+    color: #2D4153;
+    top: 40%;
+    right: 13%;
+    span {
+        font-size: 72px;
+        line-height: 92px;
+        letter-spacing: 0.04em;  
+        @media (max-width: 991px) {
+            font-size: 62px;
+        }         
+    }
+    @media (max-width: 1900px) {
+        right: 6%;
+    }
+    @media (max-width: 991px) {
+        left: 50%;
+        transform: translate(-50%, -60%);
+        top: 0;
+        right: auto;
+    }
+}
+.block_t {
+    position: absolute;
+    color: #2D4153;
+    top: 50%;
+    right: 11%;
+    span {
+        font-size: 54px;
+        line-height: 92px; 
+        @media (max-width: 991px) {
+            font-size: 56px;
+        }   
+        @media (max-width: 991px) {
+            font-size: 40px;
+        }  
+        @media (max-width: 460px) {
+            font-size: 35px;
+        }     
+    }
+    @media (max-width: 1900px) {
+        right: 3%;
+    }
+    @media (max-width: 991px) {
+        left: 50%;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        transform: translate(-50%, -73%);
+    }
+}
+.btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    padding: 20px 80px;
+    @media (max-width: 991px) {
+        transform: translate(-50%);
+        bottom: 0;
+        position: relative;
+        margin-top: 50px;
+    }
+}

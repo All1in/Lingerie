@@ -1,0 +1,19 @@
+.btn {
+  background-color: #476785;
+  border: 1px solid #476785;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #f5f8fa;
+  padding: 20px 0;
+  border-radius: 0;
+
+  &:hover {
+    background-color: inherit;
+    color: #476785;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}

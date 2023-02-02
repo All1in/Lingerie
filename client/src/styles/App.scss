@@ -1,0 +1,46 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    color: #2d4153;
+  }
+}
+.secondaryColor {
+  color: #97a9ba;
+}
+
+.aboutImg {
+  height: 427px;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.sectionTitle {
+  font-size: 64px;
+}
+
+.aboutImg {
+  height: 340px;
+}
+#root {
+  position: relative;
+}
+.body_active {
+  overflow: hidden;
+}
+p,
+span,
+label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}

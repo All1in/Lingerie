@@ -1,0 +1,52 @@
+.bg {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+.modal {
+  position: absolute;
+  background-color: white;
+  border-bottom: 1px solid #dee6ed;
+  width: 400px;
+  padding: 20px;
+  top: 200px;
+  height: 200px;
+  z-index: 101;
+  left: 50%;
+  transform: translateX(-50%);
+  &_header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &_body {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  &_close {
+    cursor: pointer;
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  &_footer {
+    display: flex;
+    justify-content: start;
+    & button {
+      &:first-child {
+        margin-right: 40px;
+      }
+    }
+  }
+  @media (max-width: 440px) {
+    width: 300px;
+  }
+}

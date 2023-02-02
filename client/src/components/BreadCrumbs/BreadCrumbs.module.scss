@@ -1,0 +1,21 @@
+.link_f {
+  color: #2d4153;
+}
+.symbol {
+  color: #97a9ba;
+}
+.link {
+  color: #97a9ba;
+  &:hover {
+    color: #2d4153;
+  }
+}
+.block {
+  a,
+  span {
+    font-size: 12px;
+    line-height: 15px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}

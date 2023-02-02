@@ -1,0 +1,31 @@
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  &_products {
+    width: 60%;
+    @media (max-width: 780px) {
+      width: 100%;
+    }
+  }
+  &_totaly {
+    width: 35%;
+    height: 100%;
+    background-color: #dee6ed;
+    &_content {
+      display: flex;
+      flex-direction: column;
+      padding: 0 48px 48px 48px;
+      &_price {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    @media (max-width: 780px) {
+      width: 100%;
+    }
+  }
+  @media (max-width: 780px) {
+    flex-direction: column;
+  }
+}

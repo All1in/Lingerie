@@ -1,0 +1,31 @@
+.up {
+  background-color: #387bb9;
+  border: 1px solid #387bb9;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  vertical-align: text-bottom;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: inherit;
+    .svg {
+      fill: #387bb9;
+    }
+  }
+  @media (max-width: 550px) {
+    bottom: 10%;
+    right: 5%;
+  }
+}
+.svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}

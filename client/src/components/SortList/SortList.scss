@@ -1,0 +1,50 @@
+.content {
+  &-sort-list {
+    justify-self: end;
+    position: absolute;
+    z-index: 10000;
+    background-color: #ffffff;
+    top: 39px;
+    padding: 10px 11px;
+    &-sort-item {
+      margin-bottom: 20px;
+    }
+  }
+
+  &-sort {
+    cursor: pointer;
+    position: relative;
+    padding-right: 30px;
+  }
+
+  &-sort::before {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    transform: rotate(45deg);
+    top: 13px;
+    left: 52px;
+    background-color: #2d4153;
+  }
+
+  &-sort::after {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    top: 13px;
+    left: 56px;
+    transform: rotate(-45deg);
+    background-color: #2d4153;
+  }
+
+  &-sort-item:hover {
+    cursor: pointer;
+    background-color: #e4e8ed;
+  }
+  &-sort-item.active {
+    color: #ffffff;
+    background-color: #476785;
+  }
+}

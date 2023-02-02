@@ -1,0 +1,38 @@
+.colorSquare {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid lightgray;
+  margin-left: 17px;
+}
+
+.sliderImg {
+  object-fit: cover;
+  width: 400px;
+  height: 550px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  @media (max-width: 468px) {
+    width: 100%;
+    height: 450px;
+  }
+
+}
+
+.item-galery {
+  display: grid;
+  gap: 48px;
+  grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
+}
+
+.block_fav {
+  opacity: 1;
+  position: relative;
+  bottom: 0;
+  margin-top: 20px;
+  button {
+    margin-right: 2px;
+  }
+}

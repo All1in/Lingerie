@@ -1,0 +1,25 @@
+@import '../../pages/PageHome/PerfectSet/breakpoints.scss';
+@import '../../pages/PageHome/PerfectSet/variables.scss';
+
+.pages {
+  @include for-large-up {
+    grid-column: 1/2;
+    left: -340px;
+  }
+  @include for-medium-up {
+    display: none;
+  }
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px 0;
+  .page-number,
+  .start-page-number {
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #cddeed;
+  }
+  .start-page-number {
+    color: #476785;
+  }
+}

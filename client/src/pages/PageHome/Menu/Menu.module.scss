@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 24px auto;
+  a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #97a9ba;
+    &:hover {
+      color: #2d4153;
+    }
+  }
+  @media (max-width: 992px) {
+    display: none;
+  }
+}

@@ -1,0 +1,154 @@
+.white {
+  background-color: #e7e7e7;
+}
+.black {
+  background-color: #383434;
+}
+.gray {
+  background-color: #878787;
+}
+.set-title {
+  font-size: 12px;
+}
+.image {
+  &-wrapper {
+    position: relative;
+    padding: 30% 0 100% 0;
+  }
+
+  &-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 6px;
+}
+
+.color-square {
+  width: 20px;
+  height: 20px;
+}
+
+.set {
+  &-card {
+    position: relative;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+  }
+  &-card:hover .set-hover {
+    opacity: 1;
+  }
+
+  &-card:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
+
+  &-hover {
+    display: grid;
+    opacity: 0;
+    transition: opacity 0.3s;
+    grid-template-columns: 8fr 1fr;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 84px;
+    left: 0;
+  }
+  &-addfavorit {
+    background-color: #476785;
+    border: 1px solid #476785;
+    &:hover {
+      background-color: inherit;
+    }
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 130px;
+  cursor: pointer;
+  border: none;
+  margin: 20px 0;
+  &_img {
+    height: 100%;
+    img {
+      height: 100%;
+    }
+  }
+  &_info {
+    flex: 1;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .title {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #97a9ba;
+      padding-left: 0;
+      width: 60px;
+      text-align: left;
+      &_hover {
+        &:hover {
+          color: #97a9ba;
+        }
+      }
+    }
+    svg {
+      cursor: pointer;
+    }
+    span {
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      color: #2d4153;
+    }
+    div {
+      display: flex;
+    }
+  }
+  &_price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    p {
+      font-size: 14px;
+      line-height: 18px;
+      text-align: right;
+    }
+    span {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #97a9ba;
+      cursor: pointer;
+      &:hover {
+        text-decoration-line: underline;
+      }
+    }
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2d4153;
+  }
+}

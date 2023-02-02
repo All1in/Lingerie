@@ -1,0 +1,95 @@
+@import './breakpoints.scss';
+@import '../../pages/PageHome/PerfectSet/variables.scss';
+
+.form-check-label {
+  display: flex;
+  gap: 8px;
+}
+
+.creme {
+  background-color: #ffe2c1;
+}
+.beige {
+  background-color: #fff5be;
+}
+.red {
+  background-color: #ff0000;
+}
+.darkred {
+  background-color: #8b0000;
+}
+.pink {
+  background-color: pink;
+}
+.nude {
+  background-color: beige;
+}
+.violet {
+  background-color: violet;
+}
+
+.page {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  &-nav_list {
+    display: flex;
+    gap: 13px;
+  }
+
+  &-wrapper {
+    @include for-medium-up {
+      display: grid;
+      grid-template: 1fr / minmax(auto, 240px) minmax(auto, 1fr);
+      justify-content: center;
+      row-gap: 32px;
+    }
+  }
+  &-sidebar {
+    grid-column: 1/2;
+  }
+  &-controls {
+    display: grid;
+    position: relative;
+    grid-column: 2/3;
+    justify-content: center;
+  }
+}
+
+.content {
+  display: grid;
+  &.cards {
+    position: relative;
+  }
+  &-sort {
+    justify-self: end;
+  }
+  &-button {
+    width: 280px;
+    justify-self: center;
+  }
+}
+
+.pseudo {
+  cursor: pointer;
+  position: relative;
+}
+
+.pseudo::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  top: 12px;
+  left: 70px;
+  background-color: #2d4153;
+}
+.pseudo::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  top: 12px;
+  left: 70px;
+  transform: rotate(90deg);
+  background-color: #2d4153;
+}

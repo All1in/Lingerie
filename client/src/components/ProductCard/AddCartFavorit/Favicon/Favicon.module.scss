@@ -1,0 +1,12 @@
+.img {
+  cursor: pointer;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  fill: white;
+  &:hover {
+    background-color: inherit;
+    fill: #476785;
+  }
+}
