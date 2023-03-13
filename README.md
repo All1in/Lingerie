@@ -58,3 +58,6 @@ If you wish to contribute to this project, please feel free to fork the reposito
 ## License
 
 This project is licensed under the MIT License.
+
+# Original project with a team
+GitHub: https://github.com/Oleksiy26/Step4_Eshop_Frontend
