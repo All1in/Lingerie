@@ -1,8 +1,5 @@
 # Lingerie
 
-<div align="center">
-  <img width="90%" src="https://s3.envato.com/files/432465131/00-Preview.jpg" alt="image"/>
-</div>
 
 Lingerie is a fictional brand of women's lingerie that prides itself on offering a wide range of styles, sizes, and designs to cater to the diverse needs of women everywhere. The brand is known for its high-quality fabrics and attention to detail, ensuring that every piece is both comfortable and fashionable.
 
