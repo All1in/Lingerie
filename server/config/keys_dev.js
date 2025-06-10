@@ -1,6 +1,6 @@
 module.exports = {
   mongoURI:
-    'mongodb+srv://Oleksii:Qazxswedc351@cluster0.pkff6fd.mongodb.net/step4data?retryWrites=true&w=majority',
+    'mongodb+srv://bm3023068:uLmk3ty4oyoxZhKY@linger.xjh0uoh.mongodb.net/?retryWrites=true&w=majority&appName=linger',
   secretOrKey: 'random very very secret string'
   // mailUser: process.env.NODEMAILER_USER,
   // mailPassword: process.env.NODEMAILER_PASSWORD,

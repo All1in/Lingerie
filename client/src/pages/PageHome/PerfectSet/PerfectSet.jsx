@@ -12,6 +12,8 @@ const PerfectSet = () => {
   const [productsCount, setProductCount] = useState(0)
   const [randomRange, setRandomRange] = useState(0)
 
+  console.log('products', products)
+
   useEffect(() => {
     setProductCount(products.products.length)
     setRandomRange(getRandomRange(0, productsCount, 4))
